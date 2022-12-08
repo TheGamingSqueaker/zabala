@@ -5,84 +5,92 @@
     <title>RAMON ZABALA YOUTUBE</title>
     <link rel="icon" type="image/x-icon" href="ramone.ico">
     <style>
-      body {
-     background-color: #383737;
- }
-
- .button {
-     background-color: #FF0000;
-     border: none;
-     color: white;
-     padding: 20px 20px;
-     text-align: center;
-     font-size: 20px;
-     margin: 4px 2px;
-     opacity: 0.6;
-     transition: 0.3s;
-     display: inline-block;
-     text-decoration: none;
-     cursor: pointer;
-     font-family: "Comic Sans MS", sans-serif;
- }
-
- .button:hover {
-     opacity: 1
- }
-
- #title {
-     font-family: "Comic Sans MS", sans-serif;
-     font-size: 50px;
-     text-align: center;
-     color: white;
-     transition: 0.6s;
- }
-
- #title:hover {
-     color: aqua;
-     opacity: 1;
- }
-
- p {
-     color: white;
-     text-align: center;
-     margin: inherit;
-     transition: 0.5s;
- }
-
- p:hover {
-     color: aqua;
- }
-
- #button_holder {
-     position: relative;
-     width: fit-content;
-     left: 50%;
-     transform: translateX(-50%);
- }
- .image{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-  height:auto;
+        body {
+            background-color: #383737;
         }
-  </style>
+
+        .button {
+            background-color: #FF0000;
+            border: none;
+            color: white;
+            padding: 20px 20px;
+            text-align: center;
+            font-size: 40px;
+            margin: 4px 2px;
+            opacity: 0.6;
+            transition: 0.3s;
+            display: inline-block;
+            text-decoration: none;
+            cursor: pointer;
+            font-family: "Comic Sans MS", sans-serif;
+        }
+
+        .button:hover {
+            opacity: 1
+        }
+
+        #title {
+            font-family: "Comic Sans MS", sans-serif;
+            font-size: 50px;
+            text-align: center;
+            color: white;
+            transition: 0.6s;
+        }
+
+        #title:hover {
+            color: aqua;
+            opacity: 1;
+        }
+
+        p {
+            color: white;
+            text-align: center;
+            margin: inherit;
+            transition: 0.5s;
+        }
+
+        p:hover {
+            color: aqua;
+        }
+
+        #button_holder {
+            position: relative;
+            width: fit-content;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+            height: auto;
+        }
+
+        .container {
+            width=100vw;
+            height=100vw;
+
+        }
+    </style>
 </head>
 
 <body>
     <!-- Start your code here -->
-    <h1 id="title">Subscribe to Ramon Zabala</h1>
-    <div id="button_holder">       
-        <button class="button" onclick="window.location.href='https://www.youtube.com/@RamonZabala';">Subscribe to Ramon Zabala here!</button>
+    <div class="container">
+        <h1 id="title">Subscribe to Ramon Zabala</h1>
+        <div id="button_holder">
+            <button class="button" onclick="window.location.href='https://www.youtube.com/@RamonZabala';">Subscribe to Ramon Zabala here!</button>
+        </div>
+        <p>Please spread the word lets get him a play button!</p>
+        <p align="center;" style="background-color='white'"><iframe class="image" height="80px" width="300px" frameborder="0" src=https://livecounts.io/embed/youtube-live-subscriber-counter/UCmA09M_kgCLYemQWYSgkVPg style="border: 0; width:300px; height:80px;"></iframe></p>
+        <p>POST THIS QR CODE AROUND:</p>
+        <img class="image" src="qr.png" alt="QR Code">
+        <div id="button_holder">
+            <a class="download" style="color:white;text-align:center;" href="qr.png" download>Download QR Code Here</a>
+        </div>
     </div>
-    <p>Please spread the word lets get him a play button!</p>
-    <p align="center;"><iframe class ="image" height="80px" width="300px" frameborder="0" src=https://livecounts.io/embed/youtube-live-subscriber-counter/UCmA09M_kgCLYemQWYSgkVPg style="border: 0; width:300px; height:80px;"></iframe></p>
-    <p>POST THIS QR CODE AROUND:</p>
-    <img class="image" src="qr.png" alt="QR Code">
-    <div id="button_holder">
-    <a class="download" style="color:white;text-align:center;" href="qr.png" download>Download QR Code Here</a>
-    </div>
-    
     <!-- End your code here -->
 </body>
 
